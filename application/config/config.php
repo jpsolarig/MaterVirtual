@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
-
+//$config['base_url'] = '';
+$config['base_url'] = 'http://127.0.0.1/mater_virtual_2017/public_html';
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -114,7 +114,7 @@ $config['enable_hooks'] = FALSE;
 | https://codeigniter.com/user_guide/general/creating_libraries.html
 |
 */
-$config['subclass_prefix'] = 'MY_';
+$config['subclass_prefix'] = 'CMS_';
 
 /*
 |--------------------------------------------------------------------------
